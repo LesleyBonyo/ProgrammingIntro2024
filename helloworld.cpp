@@ -1,9 +1,10 @@
 #include<iostream>
+#include<iomanip>
 
 using namespace std;
 
 int main(){
-	cout << "Hello \n World" << endl;
-	cout << "\tIntro class";
+	double mynum = 45.2345671234568;
+	cout << fixed<<setprecision(4)<<mynum;
 	return 0;
 }
