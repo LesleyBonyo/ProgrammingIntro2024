@@ -12,6 +12,11 @@ int addTwoNumbers(){
 int findSum(int num1, int num2){
     return num1 + num2;
 }
+// function to find product of 3 numbers
+int findproduct(int x, int y, int z){
+    return x * y * z;
+}
+
 int main(){
     // calling a function
     int result = addTwoNumbers();
